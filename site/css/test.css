@@ -23,62 +23,64 @@ div#container{
 
 p {
   border: 1px solid black;
+  z-index: 0
   width: 90%;
   height: 150px;
   font-family: Arial, Helvetica, sans-serif;
   margin-right: auto;
   margin-left: auto;
   color: black;
-  font-size: 120%;
+  font-size: 100%;
   padding: 3px;
+  padding-top: 30px
 }
 
 #p1{
 	background-color: #D3FBDB;
 	position: relative;
+	font-size: 1em;
 }
 #p2{
 	background-color: #C9F8F7;
 	position: relative;
+	font-size: 1em;
 }
 #p3{
 	background-color: #FBDAB8;
 	position: relative;
-	
+	font-size: 1em;
 }
 
 h2{
-	background-color: #faaf5a
-	border: 1px solid black;
-  	width: 90%;
-  	height: 150px;
+	border: 1px black;
+  	z-index: 1;
   	font-family: Arial, Helvetica, sans-serif;
   	color: black;
-  	font-size: 120%
+  	font-size: 100%
   	font-weight: bold;
   	text-align: right;
   	padding: 2px;
 }
 
 #h1{
-	background-color: #C9F8F7;
-	position: relative;
-	left: 200px;
-	bottom: 180px;
+	background-color: #C9F8F7;;
+	float: right;
+	width: 50%;
+	height: 50%;
+	font-size: 1.1em
 }
 #h2{
 	background-color: #FBDAB8;
-	position: relative;
-	width: 100px;
-	height: 20px;
-	left: 200px;
-	bottom: 180px;
+	width: 50%;
+	height: 50%;
+	font-size: 1.1em
 }
 #h3{
 	background-color: #D3FBDB;
-	position: absolute;
-	width: 100px;
-	height: 20px;
+	float: right;
+	width: 50%;
+	height: 50%;
+	font-size: 1.1em
 }
 
 .row{
@@ -88,7 +90,7 @@ h2{
 div#container {
   background-color: #000000;
   position: relative;
-  top: 60px;
+  top: 30px;
 }
 
 /***** large devices *****/
