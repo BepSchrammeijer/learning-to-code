@@ -29,8 +29,9 @@ div#container{
   margin-left: auto;
 }
 .row {
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-right: 0px;
+  margin-left: 0px;
+  width: 100%;
 }
 
 p {
@@ -69,12 +70,10 @@ h2{
   	font-weight: bold;
   	text-align: center;
   	padding: 2px;
-  	buffer: 10px;
 }
 
 #h1{
 	background-color: #C9F8F7;
-	float:right;
 	width: 50%;
 	height: 50p%;
 	font-size: 1.1em
@@ -92,9 +91,6 @@ h2{
 	font-size: 1.1em
 }
 
-.row{
-	width: 100%;
-}
 
 
 /***** large devices *****/
