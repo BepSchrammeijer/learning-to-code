@@ -19,7 +19,6 @@ h1{
 div#container{
 	background-color: #FEFEFE;
 	position: relative;
-	margin: 5px;
 }
 
 .container-fluid {
@@ -27,6 +26,7 @@ div#container{
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  position: relative;
 }
 .row {
   margin-right: 0px;
@@ -40,8 +40,6 @@ p {
   height: 150px;
   font-family: Arial, Helvetica, sans-serif;
   float: right;
-  margin-right: auto;
-  margin-left: auto;
   color: black;
   font-size: 100%;
   padding: 3px;
@@ -64,18 +62,20 @@ p {
 h2{
 	border: 1px solid black;
   	font-family: Arial, Helvetica, sans-serif;
-  	float: right;
+	position: relative;
+	float: right;
   	color: black;
   	font-size: 100%
   	font-weight: bold;
   	text-align: center;
   	padding: 2px;
+	top: 28px;
 }
 
 #h1{
 	background-color: #C9F8F7;
 	width: 50%;
-	height: 50p%;
+	height: 50%;
 	font-size: 1.1em
 }
 #h2{
